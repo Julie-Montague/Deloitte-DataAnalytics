@@ -1,5 +1,6 @@
 # Deloitte-DataAnalytics
 This is part of the Deloitte Virtual Analytics Internship Analysis
+Visualization tools used : Tableau
 
 ## TASK 1 - Data Analysis
 The task provide telemetrry data for the client, Daikibo, collected from 4 factories:
@@ -23,3 +24,21 @@ The client would like to answer two main questions :
 7. Create a Dashboard with the 2 previous sheets and set the first chart to be used as a filter (selecting a factory in the first chart shows only the down time of the machines in this factory in the second chart).
 8. Select the factory with the most down time (click on its bar), make a screenshot of the dashboard and upload it as a submission for this task.
 
+## TASK 2 - Forensic Technology
+After a worrisome number of internal complaints about gender inequality in terms of salary, Daikibo Industrials wants us to help them investigate.
+
+The Forensic Tech team has built an algorithm to quantify “level of gender pay equality” for most job roles within the company, in all company locations. Our Forensics lead thinks it would be a great idea for you to finish the job.
+
+The excel file contains 3 columns:
+  - Factory
+  - Job Role
+  - Equality Score (integer; ranging between -100 and +100; 0 is ideal)
+    
+Create a 4th column (Equality class), classifying the equality score into 3 types:
+  - Fair (+-10)
+  - Unfair (<-10 AND >10)
+  - Highly Discriminative (<-20 AND >20)
+Examples:
+  10 → Fair
+  -9 → Unfair
+  -30 → Highly Discriminative
